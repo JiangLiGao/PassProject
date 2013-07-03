@@ -26,6 +26,7 @@ import com.gexing.xue.view.MyGridView;
 
 public class WelcomeActivity extends Activity {
 
+
 	private WelcomeAdapter adapter;
 	private long exitTime;
 	private Grade grade1;
