@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_item_grade_container" android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_split_line" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/ico_conn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/choose_grade" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/ico_conn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/choose_grade" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_grade_item_img" android:background="@drawable/item_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/id_grade_item_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hello_world" />
+    </LinearLayout>
+</RelativeLayout>
